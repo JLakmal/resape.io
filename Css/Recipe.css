@@ -1,0 +1,59 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a33434;
+  font-family: Calibri;
+  font-size: 25px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #e9c58c;
+}
+
+.active {
+  background-color: #9bd704;
+}
+
+#ReciepeHeaing {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: #e9c58c;
+}
+.RecipeLinks {
+  font-size: 3 0px;
+  text-align: left;
+  font-weight: bold;
+  font-style: italic;
+  color: #e9c58c;
+}
+.RecipePara {
+  font-size: 20px;
+  text-align: left;
+  font-family: calibri;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+#bgimg {
+  width: fit-content;
+  height: fit-content;
+}
